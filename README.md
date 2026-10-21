@@ -1,3 +1,3 @@
-# MethodsPractice
+# Methods Practice
 This is just a simple WinForms program.
-Getting use to using Methods in Visual Studio in C#.
+Getting use to using Methods in Visual Studio using C#.

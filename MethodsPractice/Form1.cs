@@ -13,7 +13,7 @@ public partial class Form1 : Form
     /// <param name="minValue">Minimum inclusive value</param>
     /// <param name="maxValue">Maximum inclusive value</param>
     /// <returns></returns>
-    private bool isWithinRange(int numToCheck, int minValue, int maxValue)
+    private static bool IsWithinRange(int numToCheck, int minValue, int maxValue)
     {
 
        // return numToCheck >= minValue && numToCheck <= maxValue;

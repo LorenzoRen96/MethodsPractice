@@ -1,10 +1,32 @@
-namespace MethodsPractice
+namespace MethodsPractice;
+
+public partial class Form1 : Form
 {
-    public partial class Form1 : Form
+    public Form1()
     {
-        public Form1()
+        InitializeComponent();
+    }
+    /// <summary>
+    /// This method checks if a number is within a specific inclusive range.
+    /// </summary>
+    /// <param name="numToCheck">The number checked if it is within range</param>
+    /// <param name="minValue">Minimum inclusive value</param>
+    /// <param name="maxValue">Maximum inclusive value</param>
+    /// <returns></returns>
+    private bool isWithinRange(int numToCheck, int minValue, int maxValue)
+    {
+
+       // return numToCheck >= minValue && numToCheck <= maxValue;
+       // The code above is the same as below witj less syntax
+
+		if (numToCheck >= minValue && numToCheck <= maxValue)
         {
-            InitializeComponent();
+            return true;
+        }
+        else 
+        { 
+            return false;
         }
     }
+
 }
